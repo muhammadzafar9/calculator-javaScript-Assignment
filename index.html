@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap 4  -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Document</title>
+    <!-- main css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- javaScript -->
+    <script src="app.js"></script>
+</head>
+<body>
+
+    <!-- simple calulator  -->
+  
+
+
+    <div class="text-center text-light mt-5">
+        <h1>Simple Calculator</h1>
+
+    </div>
+    <div class="main justify-content-center" >
+    <div>
+    
+        <div >
+            <input  class="result" type="text" name="box" id="result"  >
+        </div>
+        <!-- label button output result  -->
+        <div>
+            <button class="clearbtn" onclick=" clearResult()">C</button>
+
+        </div>
+        <!-- button section  -->
+        <div >
+            <button class="btn " onclick="getNumber('7')" >7</button>
+            <button class="btn"  onclick="getNumber('8')">8</button>
+            <button class="btn" onclick="getNumber('9')">9</button>
+            <button class="btn"  onclick="getNumber('*')">X</button>
+        </div> 
+        <div >
+            <button class="btn"  onclick="getNumber('4')">4</button>
+            <button class="btn"  onclick="getNumber('5')">5</button>
+            <button class="btn"  onclick="getNumber('6')">6</button>
+            <button class="btn"  onclick="getNumber('-')">-</button>
+        </div>
+        <div>
+            <button class="btn"  onclick="getNumber('1')">1</button>
+            <button  class="btn"  onclick="getNumber('2')"> 2</button>
+            <button class="btn"  onclick="getNumber('3')">3</button>
+            <button class="btn"  onclick="getNumber('+')">+</button>
+        </div>
+        <div>
+            <button class="btn"  onclick="getNumber('0')">0</button>
+            <button  class ="btn" onclick="getNumber('.')">.</button>
+            
+            <button class="btn"  onclick="getNumber('/')">/</button>
+           <!--  <button class="btn"  onclick="getNumber('+')">+</button> -->
+            <button class="btn" onclick="getResult('=')">=</button>
+
+
+           
+            
+           
+            
+        </div>
+    </div>
+
+</div>
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    
+</body>
+</html>
